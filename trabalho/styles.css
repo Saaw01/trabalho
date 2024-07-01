@@ -1,0 +1,355 @@
+/*LAYOUT DO SITE*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    position: relative;
+}
+
+#esquerda {
+    background-color: #CD853F;
+    height: 100vh;
+    width: 25%;
+    position: absolute;
+}
+
+#meio {
+    background-color: #DCDCDC;
+    position: absolute;
+    width: 75%;
+    left: 25%;
+    height: 100vh;
+}
+
+/*LADO ESQUERDO*/
+
+
+#foto {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    left: 19%;
+    top: 2%;
+}
+#nome{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 25%;
+}
+
+#linha {
+    position: absolute;
+    width: 50%;
+    border: 1px solid #000;
+    top: 30%;
+    left: 19%;
+}
+
+#Contato{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    top: 30%;
+    color: white;
+
+}
+#telefone{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 5%;
+    top: 36%;
+}
+#tel{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 36%;
+}
+#ema{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 5%;
+    top: 42%;
+
+}
+#email{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 42%;
+}
+#linha2{
+    position: absolute;
+    width: 50%;
+    border: 1px solid #000;
+    top: 49%;
+    left: 19%;
+}
+#endereço{
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    left: 25%;
+    top: 49%;
+    color: white;
+}
+#imagrua{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 5%;
+    top: 53%;
+
+}
+#rua{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 1%;
+    top: 54%;
+    color: white;
+}
+#ru{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 54%;
+}
+#N{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 68%;
+    top: 54%;
+    color: white;
+}
+#nmr{
+    position: absolute;
+    width: 20%;
+    height: 4%;
+    left: 73%;
+    top: 54%;
+}
+#bairro{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 60%;
+
+}
+#linha3{
+    position: absolute;
+    width: 50%;
+    border: 1px solid #000;
+    top: 68%;
+    left: 19%;
+}
+#hab{
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    left: 25%;
+    top: 68%;
+    color: white;
+}
+#hab1{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 79%;
+}
+#hab2{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 84%;
+}
+#hab3{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 89%;
+}
+
+
+
+
+
+
+
+
+/*CONTEUDO-CENTRO*/
+#titulo {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 37%;
+    top: 7%;
+    font-size: 40px;
+    color: #000000;
+}
+#textresumo{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    left: 1%;
+    top: 15%;
+}
+#lm2{
+    position: absolute;
+    width: 90%;
+    border: 2px solid #000;
+    top: 50%;
+    left: 1%;
+}
+#expmeio{
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+#exp1{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 1%;
+    top: 55%;
+}
+#exp2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 1%;
+    top: 59%;
+}
+#carg{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 27.5%;
+    top: 55%;
+}
+#carg2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 27.5%;
+    top: 59%;
+}
+#data2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 55%;
+    top: 55%;
+}
+#data3{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 55%;
+    top: 59%;
+}
+#educação{
+    position: absolute;
+    left: 1%;
+    top: 75%;
+}
+#lm3{
+    position: absolute;
+    width: 90%;
+    border: 2px solid #000;
+    top: 75%;
+    left: 1%;
+}
+#ed1{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 1%;
+    top: 80%;
+}
+#ed2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 27.5%;
+    top: 80%;
+}
+#eddt{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 55%;
+    top: 80%;
+}
+#ed3{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 1%;
+    top: 84%;
+}
+#ed4{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 27.5%;
+    top: 84%;
+}
+#eddt2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 55%;
+    top: 84%;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#inputContainer {
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 35.5%;
+    top: 90%;
+}
+#openInputButton{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 35.5%;
+    top: 94%;
+}
+#textInput{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 35.5%;
+    top: 90%;
+}
+#envi{
+    position: absolute;
+    width: 10%;
+    height: 3%;
+    left: 70%;
+    top: 94%;
+}

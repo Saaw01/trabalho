@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cont{
+    position: relative;
+    height: 100vh;
+}
+#esquerda{
+    background-color: #CD853F;
+    height: 100vh;
+    width: 25%;
+    position: absolute;
+}
+#meio{
+    height: 100vh;
+    width: 75%;
+    position: absolute;
+    left: 25%;
+    background-color: #DCDCDC;
+}
+#linha{
+    position: absolute;
+    width: 50%;
+    border: 1px solid #000;
+    top: 30%;
+    left: 19%;
+}
+#foto{
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    left: 15%;
+    top: 2%;
+}
+#nome{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 25%;
+}
+#Contato{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    color: white;
+}
+#imgtelefone{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 5%;
+    top: 36%;
+}
+#telefone{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 36%;
+}
+#imgemail{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 5%;
+    top: 42%;
+}
+#email{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 42%;
+}
+#linha2{
+    position: absolute;
+    width: 50%;
+    border: 1px solid #000;
+    top: 49%;
+    left: 19%;
+}
+#endereço{
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    left: 25%;
+    top: 49%;
+    color: white;
+}
+#imgrua{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 5%;
+    top: 53%;
+}
+#rua{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 54%;
+}
+#numero{
+    position: absolute;
+    width: 20%;
+    height: 4%;
+    left: 73%;
+    top: 54%;
+}
+#bairro{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 60%;
+}
+#linha3{
+    position: absolute;
+    width: 50%;
+    border: 1px solid #000;
+    top: 68%;
+    left: 19%;
+}
+
+#hab{
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    left: 25%;
+    top: 68%;
+    color: white;
+}
+#hab1{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 79%;
+}
+#hab2{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 84%;
+}
+#hab3{
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    left: 19%;
+    top: 89%;
+}
+
+/*centro*/
+#titulo{ 
+    position: absolute;
+    left: 37%;
+    top: 7%;
+    font-size: 40px;
+    color: #000000;
+}
+#linhameio{
+    position: absolute;
+    width: 90%;
+    border: 2px solid #000;
+    top: 50%;
+    left: 1%;
+}
+#barra{
+    position: absolute;
+    border: 2px solid transparent;
+    height: 30%;
+    width: 50%;
+    top: 15%;
+    left: 19%;
+}
+#textresumo{
+    word-wrap: break-word;
+    
+}
+
+#expmeio{
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+#exp1{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 1%;
+    top: 57%;
+}
+#exp2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 1%;
+    top: 61%;
+}
+#cargo{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 27.5%;
+    top: 57%;
+}
+#cargo2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 27.5%;
+    top: 61%;
+}
+#data2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 55%;
+    top: 57%;
+}
+#data3{
+
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 55%;
+    top: 61%;
+}
+#lm3{
+    position: absolute;
+    width: 90%;
+    border: 2px solid #000;
+    top: 75%;
+    left: 1%;
+}
+#educação{
+    position: absolute;
+    left: 1%;
+    top: 75%;
+}
+#ed1{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 1%;
+    top: 80%;
+}
+#ed2{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 27.5%;
+    top: 80%;
+}
+#ed3{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 1%;
+    top: 84%;
+}
+#ed4{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 27.5%;
+    top: 84%;
+}
+#data4{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 55%;
+    top: 80%;
+}
+#data5{
+    position: absolute;
+    width: 20%;
+    height: 3%;
+    left: 55%;
+    top: 84%;
+}
+#imprimir{
+    position: absolute;
+    width: 10%;
+    height: 3%;
+    left: 70%;
+    top: 94%;}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main id="container">
+        <section>
+            <form action="fim.php" method="post" target="_blank">
+            <div id="esquerda"> 
+                <div id="linha"></div>
+                <img id="foto" src="https://static.vecteezy.com/system/resources/previews/020/911/737/non_2x/user-profile-icon-profile-avatar-user-icon-male-icon-face-icon-profile-icon-free-png.png">
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+            <h1 id="Contato" >Contato</h1>
+                <img id="telefone" src="https://cdn-icons-png.flaticon.com/128/455/455705.png">
+                    <input id="tel" name="telefone" type="text" placeholder="Telefone">
+                <img id="ema" src="https://cdn-icons-png.flaticon.com/128/3178/3178158.png" >
+                    <input id="email" name="email" type="text" placeholder="Email">
+            <div id="linha2"></div>        
+            <h1 id="endereço" >Endereço</h1>
+                <img id="imagrua" src="https://cdn-icons-png.flaticon.com/128/1535/1535705.png" >
+                <input id="ru" type="text" name="rua" placeholder="Rua"> 
+                <input id="nmr" type="text" name="numero" placeholder="numero">
+                <input id="bairro" type="text" name="bairro" placeholder="Bairro">
+            <div id="linha3"></div>    
+            <h1 id="hab">Habilidades competencias</h1>
+                <input id="hab1" type="text" name="habi1" placeholder="competencias">
+                <input id="hab2" type="text" name="habi2" placeholder="competencias">
+                <input id="hab3" type="text" name="habi3" placeholder="competencias">
+            
+            </div>
+                
+                
+                    <div id="meio">
+                        <h1 id="titulo">Resumo</h1>
+                    <div id="linhameio"></div>
+                        
+                         <textarea name="texto" id="textresumo"></textarea>
+                    <div id="lm2"></div>  
+                         <h1 id="expmeio">Experiência Profissional</h1>    
+                             <input id="exp1" type="text" name="exp1" placeholder="empresa" >
+                             <input id="exp2" type="text" name="exp2" placeholder="empresa">
+                             <input id="carg" type="text" name="carg" placeholder="cargo">
+                             <input id="carg2" type="text" name="carg2" placeholder="cargo">
+                             <input id="data2" type="date" name="data2" >
+                             <input id="data3" type="date" name="data3">
+                    <div id="lm3" ></div>       
+                         <h1 id="educação" name="educação"> Educação</h1>
+                             <input name="educaçao"id="ed1"  type="text" placeholder="Formado/Cursando">
+                             <input name="educaçao1" id="ed2" type="text" placeholder="Local">
+                             <input name="data4" type="date" id="eddt">
+                             <input name="educaçao3" id="ed3" type="text" placeholder="Formado/Cursando">
+                             <input name="educaçao4" id="ed4" type="text" placeholder="Local">
+                             <input name="data5" type="date" id="eddt2">
+                             <button id="openInputButton" name="openInputButton">Abrir Input</button>
+                             <input class="hidden" type="text" id="textInput" placeholder="Digite algo...">
+                             <input id="inputContainer" class="hidden">
+                               
+                             <input id="envi" type="submit" value="enviar" >
+                         </div>
+                         
+                         
+                         
+                </form> 
+          </section>       
+        </main>
+                         
+    </body>
+    <script src="script.js" defer></script>
+ </html>
